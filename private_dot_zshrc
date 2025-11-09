@@ -1,0 +1,27 @@
+export PATH=$PATH:/Applications/Araxis\ Merge.app/Contents/Utilities
+export PATH=$PATH:/Applications/Sublime\ Text.app/Contents/SharedSupport/bin
+
+# For git-quick-stats:
+export PATH=/opt/homebrew/opt/coreutils/libexec/gnubin:$PATH
+
+eval "$(starship init zsh)"
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+. "$HOME/.local/bin/env"
+
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/Users/andrew/.local/bin/miniconda/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/Users/andrew/.local/bin/miniconda/etc/profile.d/conda.sh" ]; then
+        . "/Users/andrew/.local/bin/miniconda/etc/profile.d/conda.sh"
+    else
+        export PATH="/Users/andrew/.local/bin/miniconda/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<

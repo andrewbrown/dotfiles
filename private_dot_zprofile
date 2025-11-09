@@ -1,0 +1,7 @@
+# Added by Toolbox App
+export PATH="$PATH:/Users/abrown/Library/Application Support/JetBrains/Toolbox/scripts"
+
+# Used by git-quick-stats; https://github.com/arzzen/git-quick-stats?tab=readme-ov-file#macos-homebrew
+export PATH="$HOMEBREW_PREFIX/opt/coreutils/libexec/gnubin:$PATH"
+
+eval "$(/opt/homebrew/bin/brew shellenv)"
