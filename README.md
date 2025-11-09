@@ -42,3 +42,8 @@ git push
 * Postgres.app
 * ProtonVPN
 * Scrypted
+
+## TODO
+
+* Set up miniconda
+* Add more preexisting dotfiles from Mac Studio, as I discover a need for them on the laptop
