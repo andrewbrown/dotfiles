@@ -1,0 +1,29 @@
+[user]
+name = Andrew Brown
+email = abrown@roughfalls.com
+signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMIHDIQqiX+Kjo0afSLtbfbOCKJHUqZr7o9Llau2MNQB
+
+[gpg]
+format = ssh
+
+[gpg "ssh"]
+program = "/Applications/1Password.app/Contents/MacOS/op-ssh-sign"
+
+[commit]
+gpgsign = true
+
+[diff]
+tool = araxis
+
+[merge]
+tool = araxis
+
+[alias]
+ad = difftool --tool=araxis --dir-diff
+ads = difftool --tool=araxis --dir-diff --staged
+
+[core]
+excludesfile = /Users/andrew/.gitignore_global
+
+[includeIf "gitdir:~/src/sz/"]
+path = ~/.gitconfig-work

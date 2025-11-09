@@ -1,0 +1,5 @@
+**/.env*
+**/.direnv
+**/.idea
+**/.tool-versions
+**/.vscode/**
