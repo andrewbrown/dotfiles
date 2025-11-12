@@ -1,3 +1,4 @@
+export PATH=$HOME/.krew/bin:$PATH:$PATH
 export PATH=$PATH:/Applications/Araxis\ Merge.app/Contents/Utilities
 export PATH=$PATH:/Applications/Sublime\ Text.app/Contents/SharedSupport/bin
 
