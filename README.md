@@ -16,12 +16,20 @@ brew bundle
 
 ## Restoring Preferences For Apps Once Installed
 
-* Bartender 6 - copy prefs from `~/.dotfiles/com.surteesstudios.Bartender.plist` to `~/Library/Preferences`
-* iStat Menus - restore settings from `~/.dotfiles/iStat Menus Settings.ismp7`
-* iTerm2 - point to prefs in `~/.dotfiles/com.googlecode.iterm2.plist`, import profiles from `~/.dotfiles/iterm2.profiles.json`
-* Path Finder - copy prefs from `~/.dotfiles/com.cocoatech.PathFinder.plist` to `~/Library/Preferences`
-* Rectangle Pro - use option to sync preferences from iCloud
-* The Clock - use option to restore preferences from iCloud
+* Bartender 6: copy prefs from `~/.dotfiles/com.surteesstudios.Bartender.plist` to `~/Library/Preferences`
+* Cursor:
+    * View | Extensions
+    * Type: Settings Sync (author: Shan), click "Install"
+    * After installed, view the extension Settings
+        * Check "Sync: Auto Download"
+        * Check "Sync: Auto Upload"
+        * In "Sync: Gist", type: 203b8366c063faff6678df154b75be0b
+        * Leave all other settings with their defaults
+* iStat Menus: restore settings from `~/.dotfiles/iStat Menus Settings.ismp7`
+* iTerm2: point to prefs in `~/.dotfiles/com.googlecode.iterm2.plist`, import profiles from `~/.dotfiles/iterm2.profiles.json`
+* Path Finder: copy prefs from `~/.dotfiles/com.cocoatech.PathFinder.plist` to `~/Library/Preferences`
+* Rectangle Pro: use option to sync preferences from iCloud
+* The Clock: use option to restore preferences from iCloud
 
 ## Updating The List Of Apps To Install
 
