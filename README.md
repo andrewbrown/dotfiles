@@ -35,7 +35,7 @@ brew bundle
 
 ```
 chezmoi cd
-brew bundle dump --file=./brewfile
+brew bundle dump --file=./Brewfile
 git add .
 git commit 
 git push 

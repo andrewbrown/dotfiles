@@ -1,4 +1,5 @@
 tap "aws/tap"
+tap "jandedobbeleer/oh-my-posh"
 tap "ngrok/ngrok"
 brew "arp-scan"
 brew "openssl@3"
@@ -51,6 +52,7 @@ cask "bartender"
 cask "charles"
 cask "chatgpt"
 cask "cursor"
+cask "docker-desktop"
 cask "fantastical"
 cask "fastmail"
 cask "firefox"
@@ -68,6 +70,7 @@ cask "path-finder"
 cask "postman"
 cask "powershell"
 cask "quicken"
+cask "raycast"
 cask "rectangle-pro"
 cask "slack"
 cask "snagit"
@@ -80,7 +83,6 @@ cask "visual-studio-code"
 cask "vlc"
 cask "vuescan"
 cask "windows-app"
-mas "Adblock Plus", id: 1432731683
 mas "ColorSlurp", id: 1287239339
 mas "ControllerForHomeKit", id: 1198176727
 mas "DaisyDisk", id: 411643860
@@ -91,16 +93,3 @@ mas "Parachute", id: 6748614170
 mas "Parcel", id: 375589283
 mas "The Clock", id: 488764545
 mas "Xcode", id: 497799835
-vscode "charliermarsh.ruff"
-vscode "docker.docker"
-vscode "eamodio.gitlens"
-vscode "ms-azuretools.vscode-containers"
-vscode "ms-python.debugpy"
-vscode "ms-python.flake8"
-vscode "ms-python.pylint"
-vscode "ms-python.python"
-vscode "ms-python.vscode-pylance"
-vscode "ms-vscode-remote.remote-containers"
-vscode "ms-vscode.powershell"
-vscode "redhat.vscode-xml"
-vscode "shan.code-settings-sync"
