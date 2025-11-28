@@ -1,5 +1,4 @@
 tap "aws/tap"
-tap "jandedobbeleer/oh-my-posh"
 tap "ngrok/ngrok"
 brew "arp-scan"
 brew "openssl@3"
@@ -93,3 +92,16 @@ mas "Parachute", id: 6748614170
 mas "Parcel", id: 375589283
 mas "The Clock", id: 488764545
 mas "Xcode", id: 497799835
+vscode "charliermarsh.ruff"
+vscode "docker.docker"
+vscode "eamodio.gitlens"
+vscode "ms-azuretools.vscode-containers"
+vscode "ms-python.debugpy"
+vscode "ms-python.flake8"
+vscode "ms-python.pylint"
+vscode "ms-python.python"
+vscode "ms-python.vscode-pylance"
+vscode "ms-vscode-remote.remote-containers"
+vscode "ms-vscode.powershell"
+vscode "redhat.vscode-xml"
+vscode "shan.code-settings-sync"
